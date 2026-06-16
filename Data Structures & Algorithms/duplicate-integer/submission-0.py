@@ -1,0 +1,8 @@
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+         
+        hashset = set(nums)
+        if(len(nums)>len(hashset)):
+            return True
+        else:
+            return False
